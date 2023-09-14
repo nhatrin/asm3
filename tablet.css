@@ -1,0 +1,93 @@
+/* table  width >740 and width < 1024*/
+@media only screen and (max-width: 991px) {
+  .body {
+    margin: auto;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .profile {
+    display: none;
+  }
+  #nav-bar a:nth-child(2) {
+    border-right: 1px solid #e1d8d8ca;
+  }
+  #about .grid-container {
+    padding: 0;
+  }
+  #job-info .grid-container {
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+  }
+  .col-3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .col-6 {
+    grid-row: 2/3;
+  }
+  #certificate img {
+    width: 80%;
+  }
+  .grid-one,
+  .grid-two,
+  .grid-three {
+    grid-template-columns: 1fr;
+  }
+  .grid-one,
+  .grid-three {
+    padding-right: 0.8rem;
+  }
+  #certificate {
+    padding: 0 1rem;
+  }
+  #project {
+    gap: 2px;
+    padding: 0 2rem;
+  }
+  #project .grid-container {
+    padding: 0;
+  }
+  td {
+    padding: 0.8rem;
+  }
+  .project-three,
+  .project-one,
+  .project-two {
+    width: 95%;
+  }
+  #certificate h1 {
+    padding: 0;
+  }
+  #project h1 {
+    padding: 0;
+  }
+  .flex-container i {
+    padding: 0.8rem;
+    margin: 0.6rem;
+  }
+  .border-left-1 {
+    border-left: 1px solid #d6c08d;
+    padding-left: 0.8rem;
+  }
+  .r1 {
+    display: inline-block;
+    align-self: flex-start;
+  }
+  .p-3 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 50% 50%;
+    gap: 0.8rem;
+  }
+  .r2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  #project span {
+    padding: 5px;
+  }
+  #footer .container {
+    max-width: 70%;
+  }
+}
