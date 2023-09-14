@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  -bg-grey: #f7f7f7;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+/* text-style */
+
+h1,
+h4 {
+  padding-bottom: 1rem;
+}
+.subtitle {
+  font-weight: bold;
+}
+p {
+  font-size: 15px;
+}
+/*banner style*/
+#banner img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+}
+.name {
+  position: absolute;
+  left: 50%;
+  top: 400px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.profile {
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 0 2rem;
+}
+
+/*navbar style*/
+#nav-bar .container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  text-align: center;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+}
+#nav-bar i {
+  color: #2d9fb3;
+}
+#nav-bar a:nth-child(1) {
+  border-left: 1px solid #6f6e6e;
+  border-right: 1px solid #6f6e6e;
+}
+#nav-bar a:nth-child(5) {
+  border-left: 1px solid #6f6e6e;
+  border-right: 1px solid #6f6e6e;
+}
+/*mục tiêu và thông tin cá nhân*/
+#target p {
+  font-size: 15px;
+}
+#personal-info {
+  margin-top: 0;
+}
+#job-info p {
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+#job-info {
+  margin: 0 3rem;
+}
+section > .grid-container {
+  width: 1170;
+  margin: auto;
+  padding: 30px 50px;
+}
+.info li {
+  display: block;
+  position: relative;
+  left: -40px;
+}
+.info span {
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  margin-top: 20px;
+  color: #2d9fb3;
+}
+.icons i {
+  padding-right: 10px;
+}
+/* icons-style */
+/* icons-style interest" */
+#interest i {
+  color: #2d9fb3;
+  border: 1px #2d9fb3 solid;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 1rem;
+}
+#interest p {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+/* icons-style footer */
+#footer .container li {
+  display: inline;
+  margin: 1rem;
+}
+#footer .container i {
+  background-color: white;
+  color: #2d9fb3;
+}
+/* list-style */
+.list-style li {
+  list-style-type: disc;
+}
+.list-style > li {
+  color: #2d9fb3;
+}
+.list-style > li > span {
+  color: black;
+}
+
+/* span-style  */
+/* span-style-one */
+.span-style-one span {
+  display: inline-block;
+  border: 1px solid #2d9fb3;
+  padding-left: 3rem;
+}
+.span-style-one span:last-child {
+  border: 1px solid #6f6e6e;
+}
+/* span-style-two */
+.span-style-two span {
+  display: inline-block;
+  border: 1px solid #2d9fb3;
+  padding-left: 3rem;
+}
+.span-style-two span:nth-child(n + 3) {
+  border: 1px solid #6f6e6e;
+}
+/* style chứng chỉ và giải thưởng*/
+#certificate {
+  padding: 0 4rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 15px;
+}
+.grid-title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-one {
+  border-bottom: 1px solid #d6c08d;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.grid-two {
+  border-bottom: 1px solid #d6c08d;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.grid-two img {
+  border-left: 1px solid #d6c08d;
+  padding-left: 1rem;
+}
+.grid-three {
+  margin-top: 2rem;
+}
+#job-info .grid-container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.grid-title {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.grid-title .section-title {
+  align-self: center;
+}
+/* border-style */
+.border-style {
+  border: 1px solid #6f6e6e;
+  padding: 2rem;
+}
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-top: 1px solid #6f6e6e;
+  text-align: start;
+  padding: 1rem;
+  vertical-align: baseline;
+}
+.project-one {
+  border: 1px solid #6f6e6e;
+}
+.project-two {
+  border: 1px solid #6f6e6e;
+}
+.project-three {
+  border: 1px solid #6f6e6e;
+}
+/* project */
+#project .grid-container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+#project span {
+  background-color: #2d9fb3;
+  border-radius: 45%;
+  padding: 5px;
+}
+#project i {
+  margin: 10px;
+}
+#project {
+  margin: 0 4rem;
+}
+
+/*footer */
+#footer .container {
+  padding: 2rem;
+  text-align: center;
+}
+#footer a {
+  text-decoration: none;
+  margin: 1rem;
+}
